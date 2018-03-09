@@ -1,0 +1,26 @@
+body {
+    background-image: url('images/darksky.jpg');
+    overflow: hidden;
+}
+
+.player {
+    position: absolute;
+    width: 50px;
+    transition: 0.2s linear;
+}
+
+.bullet {
+    position: absolute;
+    width: 12px;
+}
+
+.enemy {
+    position: absolute;
+    width: 60px;
+}
+
+#phalanx {
+    position: relative;
+    top: 100;
+    left: 10;
+}
